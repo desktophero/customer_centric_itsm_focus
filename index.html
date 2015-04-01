@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>ITSM Governance and Infrastructure as Code</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Using Infra-as-Code, CI, and Chef to deliver ITSM Governance">
+		<meta name="author" content="Jason Walker">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -41,68 +41,184 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h1>Infrastructure as Code & ITSM Governance</h1>
+					<h3>Jason Walker</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Created with <a href="http://hakim.se">reveal.js</a></small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
+					<h2>About me</h2>
 					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+						Worked at Target since 2000
 					</p>
 				</section>
+
+				<section>
+					<h2>Current role</h2>
+					<p>
+						A lead engineer in our Infra-Ops world
+					</p>
+				</section>
+
+				<section>
+					<h2>Current role</h2>
+					<p>
+						Minister of Culture
+					</p>
+				</section>
+
+				<section>
+					<h2>Current role</h2>
+					<p>
+						System development
+					</p>
+				</section>
+
+				<section>
+					<h2>Current role</h2>
+					<p>
+				    Studier of LEAN
+					</p>
+				</section>
+
+				<section>
+					<h2>Current role</h2>
+					<p>
+				   Practicing 'goat'
+					</p>
+				</section>
+
+
 
 				<!-- Example of nested vertical slides -->
 				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
+						<h2>Past roles</h2>
+						<p>Integration engineer (files, messages, web, ETL)</p>
+						<p>Telephony engineer</p>
+						<p>Systems developer</p>
 				</section>
 
 				<section>
-					<h2>Slides</h2>
+					<h2>ITSM Governance</h2>
 					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
+						What are we talking about?
 					</p>
 				</section>
 
 				<section>
-					<h2>Point of View</h2>
+					<h2>Quick context</h2>
 					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
+						[ITSM] is thus concerned with the implementation of <font color=yellow>quality</font> IT services that <font color=yellow><i>meet the needs of customers</i></font>, and is performed by the IT service provider through an <font color=yellow><font color=orange><b>appropriate mix</b></font> of people, process and information technology</font>.
 					</p>
+					<br><font size=-1>https://www.axelos.com/Corporate/media/Files/Glossaries/ITIL_2011_Glossary_GB-v1-0.pdf</font>
+				</section>
+
+				<section>
+					<h2><i>Why do you get amped about this topic?</i></h2>
 					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+						So <font color=red>delighted</font> you asked!
+					</p>
+				</section>
+
+
+        <section>
+        	<h2>Three take-aways, two topics:<br> ITSM and IAC</h2>
+        	<p>ITSM Governance is a key differentiator(<font color=orange>/enabler</font>) to an enterprise IAC movement <font color=silver>{quality}</font></p>
+        	<p>ITSM Governance, as an obstacle to IAC, will be more ignored than acknowledged (<font color=yellow>because code wins!</font>) <font color=silver>{meet the needs}</font></p>
+        	<p>ITSM Governance can be accomplished through the (<font color=green>same</font>)/similar principles of CI/CD <font color=silver>{mix of three}</font></p>
+        </section>
+
+				<section>
+					<h2>Key take-away #1</h2>
+					<p>
+						ITSM Governance is a key differentiator for enterprise adoption of IAC
+					</p>
+					<img height="50%" width="50%" data-src="https://farm9.staticflickr.com/8160/7214525854_41ea7719a4_o.jpg">
+					<br><font size=-2>https://farm9.staticflickr.com/8160/7214525854_41ea7719a4_o.jpg</font>
+				</section>
+
+				<section>
+					<h2>Key take-away #1</h2>
+					<p>
+						<font color=orange>Quality</font>: measurement in the form of a consistent & predictable result(s) against similar kinds of products or common types
 					</p>
 				</section>
 
 				<section>
-					<h2>Touch Optimized</h2>
+					<h2>Key take-away #1</h2>
 					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+           Defining the success/fail criteria, <font color=orange>for quality</font>, comes from customers!
+					</p>
+					<img height="50%" width="50%" data-src="http://www.giftedwithgrit.com/wp-content/uploads/2014/01/successimage.jpg">
+					<br><font size=-2>http://www.giftedwithgrit.com/wp-content/uploads/2014/01/successimage.jpg</font>
+				</section>
+
+
+
+				<section>
+					<h2>Key take-away #2</h2>
+					<p>
+						ITSM Governance will be avoided if not simplied and made LEANer, if used as an obstacle
+					</p>
+					<img data-src="img/ss1.png">
+					<br><font size=-2>http://r.fod4.com/s=w750,pd2/o=80/http://p.fod4.com/p/media/d9d2001d35/kmff9BhTGGkOkhU1AhxI_Drawer%20Lock.jpg</font>
+				</section>
+
+				<section>
+					<img data-src="img/ss2.png">
+					<br><font size=-2>http://r.fod4.com/s=w750,pd2/o=80/http://p.fod4.com/p/media/d9d2001d35/kmff9BhTGGkOkhU1AhxI_Drawer%20Lock.jpg</font>
+				</section>
+
+
+				<section>
+					<h2>Key take-away #2</h2>
+					<p>
+						Welcome to my silo; please fill out my form
 					</p>
 				</section>
+
+				<section>
+					<h2>Key take-away #2</h2>
+					<p>
+						ITSM Governance is a key differentiator for enterprise adoption of IAC
+					</p>
+					<img data-src="https://farm9.staticflickr.com/8160/7214525854_41ea7719a4_o.jpg">
+				</section>
+
+				<section>
+					<h2>Key take-away #2</h2>
+					<p>
+						<font color=orange>Quality</font>: measurement in the form of a consistent & predictable result(s) against similar kinds of products or common types
+					</p>
+				</section>
+
+				<section>
+					<h2>Key take-away #2</h2>
+					<p>
+           Defining the success/fail criteria, <font color=orange>for quality</font>, comes from customers!
+					</p>
+					<img height="50%" width="50%" data-src="http://www.giftedwithgrit.com/wp-content/uploads/2014/01/successimage.jpg">
+				</section>
+
+
+				<section>
+					<h2>Key take-away #2</h2>
+					<p>
+						ITSM Governance is a key differentiator for enterprise adoption of IAC
+					</p>
+					<img data-src="https://farm9.staticflickr.com/8160/7214525854_41ea7719a4_o.jpg">
+				</section>
+
+				<section>
+					<h2>Key take-away #1</h2>
+					<p>
+						<font color=orange>Quality</font>: measurement in the form of a consistent & predictable result(s) against similar kinds of products or common types
+					</p>
+				</section>
+
+
 
 				<section data-markdown>
 					<script type="text/template">
