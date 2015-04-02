@@ -1,4 +1,5 @@
 ## Contributing
+## These are the steps to contribute back to reveal.js. Retaining these details for posterity only
 
 Please keep the [issue tracker](http://github.com/hakimel/reveal.js/issues) limited to **bug reports**, **feature requests** and **pull requests**.
 

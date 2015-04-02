@@ -6,6 +6,10 @@ reveal.js comes with a broad range of features including [nested slides](https:/
 
 This work is leveraging the awesome reveal.js framework noted above.
 
+Thanks to @adamhjk for showing off reveal at ChefConf 2014 and @pmotch for giving me the "just do it" nudge.
+
+All images in this repo are/should be attributed correctly the source.
+
 ## License
 
 MIT licensed
