@@ -14,4 +14,4 @@ All images in this repo are/should be attributed correctly the source.
 
 MIT licensed
 
-Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+Copyright (C) 2015 Jason Walker
